@@ -1,0 +1,28 @@
+import 'dart:math';
+
+
+void main() {
+ 
+  var a=11;
+  var b=-120;
+  var c=-11;
+  
+  var x1;
+  var x2;
+  var x;
+  
+  var d=b*b-4*a*c;
+  
+  x1=(-b+sqrt(d))/(2*a);
+  x2=(-b-sqrt(d))/(2*a);
+  
+  
+  var dStroka=d.toString();
+  print (dStroka);
+  var x1Stroka=x1.toString();
+  print (x1Stroka);
+  var x2Stroka=x2.toString();
+  print (x2Stroka);
+  
+}
+	
